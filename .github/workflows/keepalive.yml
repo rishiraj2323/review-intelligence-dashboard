@@ -1,0 +1,16 @@
+name: Supabase Keepalive
+
+on:
+  schedule:
+    - cron: '0 0 */3 * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        run: |
+          curl -s -o /dev/null -w "%{http_code}" \
+            "https://bbwazwcnomthptynehta.supabase.co/rest/v1/raw_reviews?select=review_id&limit=1" \
+            -H "apikey: sb_publishable_i2S89WPLPQntpuyO-hS37Q_BoUf8AUQ"
