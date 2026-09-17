@@ -13,8 +13,7 @@ st.write("Rating vs Sentiment mismatch analysis across Flipkart smartwatch revie
 @st.cache_resource
 def get_engine():
     db_password = os.environ.get("DB_PASSWORD")
-    return create_engine(f"postgresql+psycopg2://postgres:{db_password}@db.bbwazwcnomthptynehta.supabase.co:5432/postgres")
-    
+    return create_engine(f"postgresql+psycopg2://postgres.bbwazwcnomthptynehta:{db_password}@aws-0-ap-northeast-1.pooler.supabase.com:6543/postgres")
 @st.cache_data
 def load_data():
     engine = get_engine()
