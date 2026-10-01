@@ -32,6 +32,13 @@ Star ratings on e-commerce platforms are a noisy signal — a customer might lea
 ## 📈 Key Insight
 
 Across 977 reviews spanning 5 brands, **Amazfit** showed a rating–sentiment mismatch rate roughly double that of every other brand in the dataset — meaning a disproportionate share of its high-star reviews contained negative language, a pattern invisible from the star rating alone.
+## Sample Charts
+
+![Rating vs Sentiment by Brand](brand_rating_vs_sentiment.png)
+
+![Mismatch % by Brand](mismatch_by_brand.png)
+
+![Overall Sentiment & Rating Distribution](overall_distributions.png)
 
 ## 🗂️ Project Structure
 
