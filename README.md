@@ -4,6 +4,18 @@ An end-to-end data pipeline and interactive dashboard that scrapes, stores, anal
 
 **🔗 Live demo:** [review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app](https://review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app)
 
+## Dashboard Preview
+
+![Dashboard Overview](dashboard_overview.png)
+
+![Sentiment by Brand](dashboard_sentiment_chart.png)
+
+![Rating vs Sentiment Mismatches](dashboard_mismatch_chart.png)
+
+![Mismatch Examples Table](dashboard_mismatch_table.png)
+
+![Search Reviews Feature](dashboard_search.png)
+
 ---
 
 ## 🧩 Problem
@@ -32,6 +44,13 @@ Star ratings on e-commerce platforms are a noisy signal — a customer might lea
 ## 📈 Key Insight
 
 Across 977 reviews spanning 5 brands, **Amazfit** showed a rating–sentiment mismatch rate roughly double that of every other brand in the dataset — meaning a disproportionate share of its high-star reviews contained negative language, a pattern invisible from the star rating alone.
+## Sample Charts
+
+![Rating vs Sentiment by Brand](brand_rating_vs_sentiment.png)
+
+![Mismatch % by Brand](mismatch_by_brand.png)
+
+![Overall Sentiment & Rating Distribution](overall_distributions.png)
 
 ## 🗂️ Project Structure
 
