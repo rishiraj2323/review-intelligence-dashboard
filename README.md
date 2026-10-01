@@ -3,17 +3,18 @@
 An end-to-end data pipeline and interactive dashboard that scrapes, stores, analyzes, and visualizes customer reviews for competing smartwatch brands sold on Flipkart — surfacing cases where the star rating a customer gives doesn't match the actual sentiment of their written review.
 
 **🔗 Live demo:** [review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app](https://review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app)
+
 ## Dashboard Preview
 
-![Dashboard Overview](dashboard_overview)
+![Dashboard Overview](dashboard_overview.png)
 
-![Sentiment by Brand](dashboard_sentiment_chart)
+![Sentiment by Brand](dashboard_sentiment_chart.png)
 
-![Rating vs Sentiment Mismatches](dashboard_mismatch_chart)
+![Rating vs Sentiment Mismatches](dashboard_mismatch_chart.png)
 
-![Mismatch Examples Table](dashboard_mismatch_table)
+![Mismatch Examples Table](dashboard_mismatch_table.png)
 
-![Search Reviews Feature](dashboard_search)
+![Search Reviews Feature](dashboard_search.png)
 
 ---
 
