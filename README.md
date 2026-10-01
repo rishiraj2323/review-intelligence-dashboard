@@ -5,15 +5,15 @@ An end-to-end data pipeline and interactive dashboard that scrapes, stores, anal
 **🔗 Live demo:** [review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app](https://review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app)
 ## Dashboard Preview
 
-![Dashboard Overview](dashboard_overview.png)
+![Dashboard Overview](dashboard_overview)
 
-![Sentiment by Brand](dashboard_sentiment_chart.png)
+![Sentiment by Brand](dashboard_sentiment_chart)
 
-![Rating vs Sentiment Mismatches](dashboard_mismatch_chart.png)
+![Rating vs Sentiment Mismatches](dashboard_mismatch_chart)
 
-![Mismatch Examples Table](dashboard_mismatch_table.png)
+![Mismatch Examples Table](dashboard_mismatch_table)
 
-![Search Reviews Feature](dashboard_search.png)
+![Search Reviews Feature](dashboard_search)
 
 ---
 
